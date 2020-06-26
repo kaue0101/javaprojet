@@ -4,8 +4,7 @@
 package cursoJava;
 
 /**
- * @author Carlos Henrique
- * Hello Word
+@ autor Kaue Gonçalves * Hello Word
  */
 public class Hello {
 
