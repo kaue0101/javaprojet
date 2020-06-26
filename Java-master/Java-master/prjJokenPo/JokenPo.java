@@ -6,8 +6,7 @@ package prjJokenPo;
 import java.util.Scanner;
 
 /**
- * @author Carlos Henrique 
- *
+@ autor Kaue Gonçalves *
  */
 public class JokenPo {
 	public static void main(String[] args) {
