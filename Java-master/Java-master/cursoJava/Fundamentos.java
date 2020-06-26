@@ -1,6 +1,5 @@
 /**
-@author Carlos Henrique
- * 
+@ autor Kaue Gon√ßalves * 
  */
 package cursoJava;
 
@@ -13,7 +12,7 @@ public class Fundamentos {
 		double temperatura = 26.7;
 		boolean arCondicionado = false;
 		nome = "Carlos Henrique";
-		System.out.println("Uso de vari·veis na linguagem Java");
+		System.out.println("Uso de vari√°veis na linguagem Java");
 		System.out.println("Exemplos:");
 		System.out.println("Nome: " + nome);
 		System.out.println("Idade: " + idade);
@@ -23,7 +22,7 @@ public class Fundamentos {
 		System.out.println("___________________________________");
 		System.out.println("");
 		double i = 10;
-		System.out.println("Operadores AritmÈticos e AtribuiÁıes");
+		System.out.println("Operadores Aritm√©ticos e Atribui√ß√µes");
 		System.out.println("Exemplos:");
 		System.out.println("i = " + i);
 		System.out.println("i = " + i + " + 5 | i = " + (i + 5));
@@ -47,7 +46,7 @@ public class Fundamentos {
 		System.out.println("");
 		System.out.println("Exemplo 1 - Uso do 'if'");
 		if (sexo == 'M') {
-			System.out.println("Alistamento militar obrigatÛrio");
+			System.out.println("Alistamento militar obrigat√≥rio");
 		}
 		System.out.println("");
 		System.out.println("Exemplo 2 - Uso do 'if - else'");
@@ -61,32 +60,32 @@ public class Fundamentos {
 		if (idade < 16) {
 			System.out.println("PROIBIDO VOTAR");
 		} else if (idade >= 18 && idade <= 70) {
-			System.out.println("VOTO OBRIGAT”RIO");
+			System.out.println("VOTO OBRIGAT√ìRIO");
 		} else {
 			System.out.println("VOTO FACULTATIVO");
 		}
 		System.out.println("");
 		System.out.println("Exemplo 4 - Uso do 'switch case'");
 		System.out.println("1. Cadastro de clientes");
-		System.out.println("2. Cadastro de usu·rios");
-		System.out.println("3. RelatÛrios");
+		System.out.println("2. Cadastro de usu√°rios");
+		System.out.println("3. Relat√≥rios");
 		int opcao = 1;
 		switch (opcao) {
 		case 1:
 			System.out.println("CLIENTES");
 			break;
 		case 2:
-			System.out.println("USU¡RIOS");
+			System.out.println("USU√ÅRIOS");
 			break;
 		case 3:
-			System.out.println("RELAT”RIOS");
+			System.out.println("RELAT√ìRIOS");
 			break;
 		default:
-			System.out.println("OpÁ„o inv·lida");
+			System.out.println("Op√ß√£o inv√°lida");
 			break;
 		}
 		System.out.println("");
-		System.out.println("Estruturas de repetiÁıes");
+		System.out.println("Estruturas de repeti√ß√µes");
 		System.out.println("");
 		System.out.println("Exemplo 5 - Uso do 'for'");
 		for (int j = 10; j > 0; j--) {
