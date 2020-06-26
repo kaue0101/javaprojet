@@ -1,8 +1,8 @@
 /**
-@ author Carlos Henrique
+@ author Kaue Gon√ßalves
  * 
  */
-package ExercÌcios;
+package Exerc√≠cios;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -13,13 +13,13 @@ public class IMC {
 		double altura,peso,resultado;
 		Scanner leitor = new Scanner(System.in);
 		DecimalFormat formatador = new DecimalFormat("0.0");
-		System.out.println("C·lculo do IMC");
+		System.out.println("C√°lculo do IMC");
 		System.out.print("Digite a sua altura: ");
 		altura = leitor.nextDouble();
 		System.out.print("Digite o seu peso: ");
 		peso = leitor.nextDouble();
 		resultado = peso / (altura * altura);
-		System.out.println("Seu indice de massa corporal È: " + formatador.format(resultado));
+		System.out.println("Seu indice de massa corporal √©: " + formatador.format(resultado));
 		if (resultado < 18.5) {
 			System.out.println("Abaixo do peso");
 		} else if (resultado >= 18.5 && resultado <= 24.9) {
